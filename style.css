@@ -21,19 +21,17 @@
 
         .background {
             width: 100%;
+            min-height: 100vh;
             background-color: var(--bg);
             background-image: url(image/BG.svg);
             background-repeat: no-repeat;
             background-size: cover;
-            position: absolute;
             display: flex;
             flex-direction: column;
-            gap: 50px;
         }
 
         .page-wrap {
             width: 100%;
-            position: absolute;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -541,12 +539,12 @@
         .footer .container {
             width: 100%;
             max-width: 1200px;
-            padding: 50px 0 100px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             gap: 20px;
+            padding-bottom: 50px;
         }
         .footer .container .title {
             font-family: "Mountains of Christmas";
@@ -575,7 +573,7 @@
 
         @media only screen and (max-width: 1171px) {
             .background {
-                height: 4237px;
+                min-height: 4240px;
                 transition: all 0.3s ease;
             }
             .page-wrap {
@@ -849,7 +847,6 @@
             }
 
             .footer .container {
-                margin-top: 30px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -879,7 +876,8 @@
 
         @media only screen and (max-width: 700px) {
             .background {
-                height: 3600px;
+                height: 100%;
+                min-height: 5000px;
                 transition: all 0.3s ease;
             }
             .page-wrap {
