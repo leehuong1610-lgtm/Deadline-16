@@ -573,7 +573,7 @@
 
         @media only screen and (max-width: 1171px) {
             .background {
-                min-height: 4240px;
+                min-height: 4500px;
                 transition: all 0.3s ease;
             }
             .page-wrap {
@@ -877,7 +877,7 @@
         @media only screen and (max-width: 700px) {
             .background {
                 height: 100%;
-                min-height: 5000px;
+                min-height: 3600px;
                 transition: all 0.3s ease;
             }
             .page-wrap {
