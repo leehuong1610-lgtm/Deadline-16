@@ -21,7 +21,6 @@
 
         .background {
             width: 100%;
-            height: 4288px;
             background-color: var(--bg);
             background-image: url(image/BG.svg);
             background-repeat: no-repeat;
